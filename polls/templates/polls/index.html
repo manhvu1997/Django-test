@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head>
+        <title>HTML co ban</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">  
+        <link rel="stylesheet" href="color.css">
+    </head>
+
+
+    <!--Cách thêm màu 2-->
+    <!-- <style>
+        h1{
+            color:red
+        }
+    </style> -->
+
+    <body>
+        <!--Tiêu đề của cá phần trong web site-->
+        <!-- <h1 style="color:red">MRCHU IS VERY HANDSOME</h1> cach thêm màu 1 -->
+        <h1>MRCHU IS VERY HANDSOME</h1>
+        <h2>MRCHU IS VERY HANDSOME</h2>
+        <h3>MRCHU IS VERY HANDSOME</h3>
+        <h4>MRCHU IS VERY HANDSOME</h4>
+        <h5>MRCHU IS VERY HANDSOME</h5>
+        <h6>MRCHU IS VERY HANDSOME</h6>
+        <!--Thẻ để chứa văn bản-->
+        <p>
+            <strike>MRCHU IS VERY HANDSOME</strike>  <!--tạo chữ có gạch ngang-->
+            <b>MRCHU IS VERY {{ mycharacter }}</b> <!--tạo chữ in đậm-->
+            <em>MRCHU IS VERY HANDSOME</em> <!--tạo chữ in nghiêng-->
+            <u>MRCHU IS VERY HANDSOME</u> <!--tạo chữ gạch chân-->
+            <br> <!--break xuống dòng-->
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Necessitatibus maxime facilis dolores beatae totam nulla quis id fuga temporibus, 
+            quam quibusdam voluptas quo veniam distinctio libero consectetur tenetur quasi alias.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, sed.
+
+            <hr> <!--tạo dòng kẻ ngang-->
+            <h2>My list item is:</h2>
+
+            <!-- Thẻ ul li để tạo danh sách không có thứ tự -->
+            <ul>
+                <!-- cách sử dụng câu lệnh for,if -->
+                {% for element in item  %}
+                    {% if element != "laptop" %}
+                        <li>{{element}}</li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </p>
+
+        <!--import image-->            
+        <img src="https://icdn.dantri.com.vn/thumb_w/640/2019/12/20/diem-danh-12-hot-girl-noi-bat-nhat-nam-2019-docx-1576850955163.jpeg" alt="Photo">
+        <br>
+
+        <!--Hyperlink-->
+        <a href="https://www.facebook.com/B.F.F.1.1.3.1">MRCHU</a>
+        
+        <form>
+            <!-- <input type="text" value="Họ và tên"> -->
+            <input type="text" placeholder="Vui lòng điền đầy đủ họ và tên" >
+            <input type="submit" value="Gửi tin nhắn">
+            <br>
+            <textarea name="MRCHU" id="11" cols="100" rows="10"></textarea>
+        </form>
+        <div>
+            sdt: 0971829580
+        </div>
+        <div>
+            địa chỉ: 74/195 Trần Cung, Cổ Nhuế 1, Bắc Từ Liêm, Hà Nội
+        </div>
+        <div>
+            email: manhvuchu@gmail.com
+        </div>
+    </body>
+</html>

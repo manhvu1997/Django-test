@@ -1,0 +1,17 @@
+/* Cách thêm màu 3 */
+h1{
+    /* color: blue; */
+    font-family: 'Lato', sans-serif;
+    font-weight:300
+}
+
+h1{
+    /* Chỉnh màu theo tên của màu */
+    /* color: green */
+    /* Chỉnh màu theo mã Hexa */
+    /* color: #121212;  */
+    /* Chỉnh màu theo rgb */
+    /* color: rgb(29, 207, 198) */
+    /* Chỉnh màu theo rgba, độ mờ */
+    color:rgba(44, 214, 10,1)
+}
